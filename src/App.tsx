@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { Hero } from './components/Hero.tsx'
+import { Nav } from './components/Nav.tsx'
+import { Description } from './components/Decsription.tsx'
 import hero1 from './assets/hero1.jpeg'
 import hero2 from './assets/hero2.jpg'
 import hero3 from './assets/hero3.jpg'
@@ -13,13 +15,10 @@ function App() {
 
   return (
     <>
+      <Nav></Nav>
       <Hero imageUrls={images}></Hero>
-      <div>
-        <h1 className="text-3xl font-bold underline hover:text-orange-500">
-          Привет мир!
-        </h1>
-      </div>
-      <h1>Vite + React</h1>
+      <Description></Description>
+      
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

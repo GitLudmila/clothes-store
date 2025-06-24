@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
 @import "tailwindcss";
 
 /* @theme {  
-    --left-arrow: url(./assets/left-arrow.svg);
-    --right-arrow: url(./assets/right-arrow.svg);
+    --font-megrim: "Megrim", system-ui;
 } */
