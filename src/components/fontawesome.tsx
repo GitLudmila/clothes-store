@@ -12,10 +12,10 @@ import {
     faMagnifyingGlass, 
     faSliders,
     faTrash,
-    faPaperPlane,
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
+  faTelegram,
   faVk,
   faInstagram,
   faApple,
@@ -32,7 +32,7 @@ library.add(
   faMagnifyingGlass,
   faSliders,
   faTrash,
-  faPaperPlane,
+  faTelegram,
   faVk,
   faInstagram,
   faApple,

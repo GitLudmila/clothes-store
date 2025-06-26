@@ -21,21 +21,21 @@ export function Footer() {
             </div>
             <div className="flex flex-row justify-around items-center">
                 <div className="flex flex-row">
-                    <button className="block cursor-pointer w-15 h-15 m-2 opacity-80 hover:opacity-100">
-                        <FontAwesomeIcon icon={ ['fa-solid', 'fa-paper-plane'] } size="2x" />
+                    <button className="block cursor-pointer w-15 h-15 m-2 opacity-70 hover:opacity-100">
+                        <FontAwesomeIcon icon={ ['fa-brands', 'fa-telegram'] } size="2x" />
                     </button>   
-                    <button className="block cursor-pointer w-15 h-15 m-2 opacity-80 hover:opacity-100">
+                    <button className="block cursor-pointer w-15 h-15 m-2 opacity-70 hover:opacity-100">
                         <FontAwesomeIcon icon={ ['fa-brands', 'fa-vk'] } size="2x" />
                     </button>    
-                    <button className="block cursor-pointer w-15 h-15 m-2 opacity-80 hover:opacity-100">
+                    <button className="block cursor-pointer w-15 h-15 m-2 opacity-70 hover:opacity-100">
                         <FontAwesomeIcon icon={ ['fa-brands', 'fa-instagram'] } size="2x" />
                     </button>                     
                 </div>
-                <div className="flex flex-row items-center">
+                <div className="flex flex-row items-center hover:*:text-shadow-lg/20">
                     <FontAwesomeIcon icon={ ['fa-brands', 'fa-apple'] } size="2x" />
                     <p className='w-3/6 ml-[10px]'>Загрузите в <span>App Store</span></p>
                 </div>
-                <div className="flex flex-row items-center">
+                <div className="flex flex-row items-center hover:*:text-shadow-lg/20">
                     <FontAwesomeIcon icon={ ['fa-brands', 'fa-google-play'] } size="2x" color="Green" />
                     <p className='w-3/6 ml-[10px]'>Доступно в <span>Google Play</span></p>
                 </div>
