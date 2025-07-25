@@ -37,8 +37,8 @@ ImageSliderProps) {
                         />
                     ))}
                 </div> */}
-                <img src={imageUrls[imageIndex]} className="w-full h-full object-cover object-center z-0 block"/>
-                <div className="block text-[6rem] xl:text-[12rem] text-gray-300 font-medium rotate-90 absolute top-1/4 right-1/12 opacity-60">DENIM</div>
+                <img src={imageUrls[imageIndex]} className="w-full h-full pointer-events-none object-cover object-center z-0 block"/>
+                <div className="block text-[6rem] xl:text-[12rem] text-gray-300 font-medium rotate-90 absolute top-1/4 right-1/12 opacity-60 pointer-events-none">DENIM</div>
                 <div className="max-w-11/12 z-10">
                     <div className="absolute top-5 left-15 right-30 flex flex-row items-start">
                         <button className="block cursor-pointer w-15 h-15 m-2">

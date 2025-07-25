@@ -5,8 +5,8 @@ export function Description() {
     return (
         <section className="w-full mb-10 bg-white z-10 flex flex-col items-center p-[1rem] pb-[4rem]">
             <div className="w-[1047px] flex flex-row items-center justify-between pb-[5rem]">
-                <img src={descr1} className=""/>
-                <img src={descr2} className=""/>
+                <img src={descr1} className="pointer-events-none"/>
+                <img src={descr2} className="pointer-events-none"/>
             </div>
             <div className="w-4/6 font-['Khula'] text-[16px] font-normal">
                 <h3 className='text-[32px] font-bold text-sm/8 pb-[1.5rem]'>VSite — российский лайфстайл бренд одежды для молодых людей</h3>
@@ -24,7 +24,7 @@ export function Description() {
                     </p>
                     <p className='pb-[1rem]'>
                         Чтобы быть в курсе всех новостей и акций, рекомендуем подписаться на наши 
-                        <span className='text-gray-400'> рассылки</span> и <span className='text-gray-400'>телеграм</span>.
+                        <span className='text-gray-400 cursor-pointer hover:text-gray-600'> рассылки</span> и <span className='text-gray-400 cursor-pointer hover:text-gray-600'>телеграм</span>.
                         </p>
                     <p className='pb-[1rem]'>
                         Желаем приятных покупок! 

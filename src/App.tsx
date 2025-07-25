@@ -4,6 +4,7 @@ import { Nav } from './components/Nav.tsx'
 import { Description } from './components/Decsription.tsx'
 import { Subscribe } from './components/Subscribe.tsx'
 import { Footer } from './components/Footer.tsx'
+// import { MenuModal } from './components/MenuModal.tsx'
 import hero1 from './assets/hero1.jpeg'
 import hero2 from './assets/hero2.jpg'
 import hero3 from './assets/hero3.jpg'
@@ -14,6 +15,7 @@ import hero5 from './assets/hero5.jpg'
 function App() {
   // const [count, setCount] = useState(0)
   const images = [hero1, hero2, hero3, hero4, hero5]
+  const [isModalOpen, setModalOpen] = useState(false);
 
   return (
     <>
@@ -22,6 +24,9 @@ function App() {
       <Description></Description>
       <Subscribe></Subscribe>
       <Footer></Footer>
+
+      {/* <button onClick={() => setModalOpen(true)}>Открыть модальное окно</button> */}
+      {/* <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} /> */}
     </>
   )
 }
